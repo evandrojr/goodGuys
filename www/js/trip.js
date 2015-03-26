@@ -1,4 +1,5 @@
-function Trip(){
-  this.modal = null;
-  this.position = null;
+function Trip(modal, position){
+  this.modal = modal;
+  this.position = position;
+  this.dateStart = new Date();
 }
