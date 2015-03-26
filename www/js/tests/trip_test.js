@@ -1,7 +1,7 @@
 describe("Initalize a walk trip", function() {
   var trip;
 
-  beforeEach(function(done) {
+  beforeAll(function(done) {
     trip = new Trip();
     trip.modal = 'walk';
     navigator.geolocation.getCurrentPosition(function(position){
